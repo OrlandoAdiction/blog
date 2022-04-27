@@ -7,9 +7,16 @@ body{
 	display: inline-block;
 	margin: 10px;
 }
+header{
 
-.grafico{
+	background: #A52A2A;
 	
+}
+.stmpd{
+
+}
+.grafico{
+	display: block;
 	margin: 0 auto;
 
 }
@@ -20,6 +27,8 @@ body{
 	color: black;
 }
 }
-.texto{
+.texto1{
+	text-align: center;
+	color: white;
      
 }
