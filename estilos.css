@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 body{
    
 }
-.menu{
-	color: black;
+li{
+	text-align: center;
 	display: inline-block;
-	margin: 10px;
+	margin: 0 auto;
+	margin-right: 50px;
+	color: white;
+
 }
 header{
 
 	background: #A52A2A;
 	
 }
-.stmpd{
+.stmp{
+	right: -15px;
+
+	top: -15px;
+}
 
 }
 .grafico{
@@ -27,7 +35,7 @@ header{
 	color: black;
 }
 }
-.texto1{
+h4{
 	text-align: center;
 	color: white;
      
