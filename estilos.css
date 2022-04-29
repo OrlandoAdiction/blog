@@ -14,15 +14,16 @@ li{
 header{
 
 	background: #A52A2A;
-	
 }
+
 .stmp{
-	right: -15px;
+
+	padding-left: 50px ;
 
 	top: -15px;
 }
 
-}
+
 .grafico{
 	display: block;
 	margin: 0 auto;

@@ -28,26 +28,38 @@
     <?php $articulos= new WP_Query([
                    'showposts' => 3,
                   ]);
-while ($articulos->have_posts()){
-    $articulos->the_post();
+while ($articulos->have_posts()) {
+    $articulos->the_post(); ?>
 
-    the_title();   
-    echo '<hr>';
-}?>
+
+
+
+<?php the_post_thumbnail("large");?> 
+<h2><?php the_title();?></h2>
+<?php the_excerpt();?>
+
+    
+
+
+
+
+
+<?php } ?>
+
 
 </div><img src="<?php bloginfo('template_url');?>/follow.jpg" class="grafico">
 <h2 class="texto1">FOLLOW</h2>
-<h4 class="texto2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<h4 class="texto2"><p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></h4>
 
 
 
 
-</div><img src="<?php bloginfo('template_url');?>/Limitles.jpg" class="grafico" width="500">
+</div><img src="<?php bloginfo('template_url');?>/Limitless.jpg" class="grafico" width="500">
 <h2 class="texto1">LIMITLESS</h2>
 <h4 class="texto2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
