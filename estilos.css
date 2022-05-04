@@ -8,18 +8,19 @@ li{
 	display: inline-block;
 	margin: 0 auto;
 	margin-right: 50px;
-	color: white;
+	color: black;
 
 }
 header{
-
+	text-align: center;
 	background: #A52A2A;
 }
 
 .stmp{
+	
+	left: -100px;
 
 	padding-left: 50px ;
-
 	top: -15px;
 }
 
@@ -31,13 +32,20 @@ header{
 }
 .texto0{
 	text-align: center;
-	font-family: 'EB Garamond', serif;
+	
 
 	color: black;
 }
 }
-h4{
+.h4{
 	text-align: center;
 	color: white;
      
+}
+.cuadro{
+	border: 5px solid black;
+	margin-bottom: 20px;
+	color: darkred;
+	background: black;
+	font-family: 'EB Garamond', serif;
 }
