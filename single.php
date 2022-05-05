@@ -1,16 +1,18 @@
-</head>
-<body background="<?php bloginfo('template_url');?>/logox2.jpg" width="700">
-	<header class="container-flip">
-		<h1><?php bloginfo('name');?></h1>
+<?php get_header();?>
 
-		<img src="<?php bloginfo('template_url');?>/stmmp.jpg" class="stmp" width="100">
-           	<ul class="menu">
-           	<li>Follow</li>
-           	<li>Limitles</li>
-           	<li>Reboot</li>
-           	<li>Quantum</li>
-           	<li>Good Morn</li>
-           	<li>Starlight</li> 
-           	<li>Funk</li>
-           	</ul>     
-    </header>
+<section>
+	<h3><?php the_title();?></h3>
+	<div class="imgg"> 
+		<center><?php the_post_thumbnail("large");?></center> 
+	</div>
+
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</section>
+<?php get_footer();?>

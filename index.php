@@ -25,15 +25,4 @@ while ($articulos->have_posts()) {
 
 <?php } ?>
 
-
-
-<footer class="container-flip">
-	
-</footer>
-
-
-
-
-
-</body>
-</html>
+<?php get_footer();?>
