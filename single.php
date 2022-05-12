@@ -1,18 +1,18 @@
 <?php get_header();?>
 
 <section>
-	<h3><?php the_title();?></h3>
+	<center><h3><?php the_title();?></h3></center>
+	<h5>Resumen: <?php the_field('resumen');?></h5>
 	<div class="imgg"> 
 		<center><?php the_post_thumbnail("large");?></center> 
 	</div>
 
 	<div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h5><?php the_content();?></h5>
+		<h6>Fuente: <?php the_field('fuente');?></h6>
+
 	</div>
 </section>
 <?php get_footer();?>
+
+
