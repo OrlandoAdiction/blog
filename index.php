@@ -1,7 +1,9 @@
 <?php get_header();?>
 <section class="container">
+	
     <?php $articulos= new WP_Query([
                    'showposts' => 3,
+                   'post_type' => 'empleos'
                   ]);
 while ($articulos->have_posts()) {
     $articulos->the_post(); ?>
